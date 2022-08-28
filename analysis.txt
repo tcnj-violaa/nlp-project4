@@ -1,0 +1,9 @@
+A bigger observed difference between the f-measures is less likely to be random chance as demonstrated by our plots where the comparisons with the highest delta-F1s had the lowest p-values. 
+Comparisons with a low delta-F1 measure had high p-values 
+as the models with the low delta-F1 measure likely performed very similarly and the observed difference could be due to random chance. 
+For our second plot we observed that comparing the same type of models and different types of methods did not make a notable difference and the blue Xs and red Os all overlapped, following the same trend. 
+This showed us that there was not much of a difference in performance between the count and binary models. 
+We saw that the most significant difference in performance results from which training sets were used in training the models. 
+Models that were trained on the 2600 sets would be expected to perform consistently better than models trained on the 650 sets as they were given more data, for example. 
+Models that were trained on the same sets of data frequently performed very near equal to each other. 
+These results make sense due to what we have learned regarding training sets and machine learning.  
